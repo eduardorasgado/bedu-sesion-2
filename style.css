@@ -1,0 +1,77 @@
+body {
+    margin-bottom:20px;
+}
+/* El border es una prop para engrosar los margenes de la caja*/
+
+.header-container-padre {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-container-padre > * {
+    display: inline-block;
+}
+
+nav {
+    width: 80%;
+    text-align: center;
+    font-family: sans-serif;
+    height: 45px;
+    margin-left: 25px;
+}
+
+.header-container-padre img {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 45px;
+}
+
+nav .nav-link {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #025157;
+    text-decoration: none;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 20px;
+}
+
+.actions .login {
+    color: #67b54b;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.actions .trial {
+    color: white;
+    border-radius: 5px;
+    background-color: #67b54b;
+    border: #67b54b;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.main-container {
+    margin-top: 80px;    
+}
+
+li {
+    display: inline;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    background-color: antiquewhite;
+}

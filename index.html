@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-container-padre">
+        <a href="https://github.com/beduExpert/A1-Frontend-Fundamentals-Santander/tree/main/sesion-02">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo">
+        </a>
+        
+        <nav class="nav justify-content-center">
+            
+            <ul>
+                <li><a class="nav-link" href="/">Products</a></li>
+                <li><a class="nav-link" href="/">Templates</a></li>
+                <li><a class="nav-link" href="/">Pricing</a></li>
+                <li><a class="nav-link" href="/">Customers</a></li>
+                <li><a class="nav-link" href="/">Blog</a></li>
+                <li><a class="nav-link" href="/">Resources</a></li>
+            </ul>
+
+        </nav>
+        
+        <div class="actions">
+            <li>
+                <a class="login" href="/login">
+                   Sign In
+                </a>
+                <a href="/logout">
+                    <button class="trial">
+                        Start Free Trial
+                    </button>
+                </a>
+            </li>
+        </div>
+    </header>
+
+    <!-- El main se ocupa una vez por proyecto para CEO, siempre encapsula 
+        informacion importante-->
+    <main class="main-container">
+        <!--El tag h1 tambien se usa una vez por pagina-->
+        <h1>Con matcha las posibilidades son infinitas</h1>
+        <p>Las siguientes secciones pueden ser de tu interes</p>
+        <section>
+
+            <article>
+                <h2>Tecnologia</h2>
+                <img src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png" alt="image">
+                <p>Informacion relevante para mi pagina</p>
+            </article>
+            
+            <article>
+                <h2>Startups</h2>
+                <img src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png" alt="image">
+                <p>Informacion relevante para mi pagina</p>
+            </article>
+
+        </section>
+    </main>
+    <!--Debemos ponerlo abajo del main-->
+    <aside>
+
+        <div>
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="/">Facebook</a></li>
+                <li><a href="/">Twitter</a></li>
+                <li><a href="/">Instagram</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            Spotify
+        </div>
+        
+        <div>
+            <a href="/">Noticias</a>
+        </div>
+
+    </aside>
+
+    <footer class="footer">
+
+        <a href="/">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo">
+        </a>
+    </footer>
+</body>
+</html>
